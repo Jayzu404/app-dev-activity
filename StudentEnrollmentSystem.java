@@ -1,3 +1,4 @@
+```java
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -72,10 +73,11 @@ public class StudentEnrollment {
         String email = sc.nextLine();
 
         Student student = new Student(
-                firstName,
-                middleName,
-                lastName,
-                email);
+            firstName,
+            middleName,
+            lastName,
+            email
+        );
 
         students.add(student);
 
@@ -209,3 +211,4 @@ public class StudentEnrollment {
         sc.close();
     }
 }
+```
